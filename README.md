@@ -32,7 +32,7 @@ digital-labor-markets/
 
 │ └── statistical_analysis.do # Statistical modeling and hypothesis testing
 
-├── notebooks/ # Jupyter notebooks for exploratory analysis
+├── notebook/ # Jupyter notebooks for exploratory analysis
 
 └── README.md # Project documentation
 
