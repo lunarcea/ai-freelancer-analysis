@@ -14,13 +14,6 @@ The digital labor market is constantly evolving, with new technologies and platf
 ## Repository Structure
 digital-labor-markets/
 
-├── data/
-
-│ ├── input/ # Place input data files here
-
-│ └── output/ # Output files will be stored here
-
-
 ├── src/
 
 │ ├── python/
