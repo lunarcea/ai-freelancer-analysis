@@ -1,0 +1,67 @@
+Python
+pycache/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+venv/
+.venv/
+.env/
+.env
+Jupyter Notebook
+.ipynb_checkpoints
+Stata
+*.dta
+*.gph
+*.smcl
+*.log
+Data files
+data/input/*
+data/output/*
+!data/input/.gitkeep
+!data/output/.gitkeep
+OS specific
+.DS_Store
+Thumbs.db
+IDE specific
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+Temporary files
+*.tmp
+*.bak
+*.swp
+*~
+Logs
+logs/
+*.log
+Local configuration
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+Package files
+*.tar.gz
+*.zip
+Coverage
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
