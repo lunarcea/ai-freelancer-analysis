@@ -98,17 +98,22 @@ To run the Stata analysis:
 ```
 This performs regression analysis and hypothesis testing on the processed data.
 
-### Data Format
-The input data should include:
-- User information: IDs, characteristics, performance metrics
-- Skill information: Skills associated with each user
-- Temporal information: Dates for tracking changes over time
-- Sample data format:
-```bash
-   user_id,date,skills,rating,success_rate
-   user123,2023-01-15,"python,data analysis,machine learning",4.8,0.75
-   user456,2023-01-20,"javascript,html,css",4.5,0.68
-```
+## Data Protection
+
+This repository does not include real data due to confidentiality requirements. To use this codebase:
+
+1. **Prepare your own data** following the format described in `DATA.md`
+2. **Place your data files** in the `data/input/` directory
+3. **Ensure your `.gitignore` is properly set** to avoid accidentally committing sensitive data
+4. **Use synthetic data** for testing and demonstration purposes
+
+### Data Security Best Practices
+
+When working with sensitive labor market data:
+- Never commit data files to Git repositories
+- Consider encrypting data files when stored locally
+- Be cautious about sharing outputs that might reveal personal information
+- Aggregate results when possible to prevent identification of individuals
 
 ### License
 This project is licensed under the MIT License - see the LICENSE file for details.
